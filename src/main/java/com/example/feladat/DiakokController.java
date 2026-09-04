@@ -1,31 +1,13 @@
 package com.example.feladat;
 
 import javafx.fxml.FXML;
+import javafx.fxml.Initializable;
 import javafx.scene.control.Label;
 
-public class DiakokController {
+public class DiakokController implements Initializable {
     @FXML
-    protected void mindenkiFunction(){
+    private Students students;
 
-    }
-    @FXML
-    protected void sandorokFunction(){
-
-    }
-    @FXML
-    protected void kecskemetiFunction(){
-
-    }
-    @FXML
-    protected void kilencvenhatFunction(){
-
-    }
-    @FXML
-    protected void tizaFunction(){
-
-    }
-    @FXML
-    protected void save(){
-
-    }
+    @Override
+    public
 }
