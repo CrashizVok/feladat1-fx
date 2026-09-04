@@ -5,10 +5,27 @@ import javafx.scene.control.Label;
 
 public class DiakokController {
     @FXML
-    private Label welcomeText;
+    protected void mindenkiFunction(){
 
+    }
     @FXML
-    protected void onHelloButtonClick() {
-        welcomeText.setText("Welcome to JavaFX Application!");
+    protected void sandorokFunction(){
+
+    }
+    @FXML
+    protected void kecskemetiFunction(){
+
+    }
+    @FXML
+    protected void kilencvenhatFunction(){
+
+    }
+    @FXML
+    protected void tizaFunction(){
+
+    }
+    @FXML
+    protected void save(){
+
     }
 }
