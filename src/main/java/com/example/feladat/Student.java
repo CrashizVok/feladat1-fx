@@ -17,9 +17,7 @@ public class Student {
         return vnev;
     }
 
-    public void setvnev(int az) {
-        this.az = az;
-    }
+    public void setVnev(String vnev) {this.vnev = vnev;}
 
     private String knev;
 

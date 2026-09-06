@@ -4,10 +4,17 @@ import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.Label;
 
-public class DiakokController implements Initializable {
+import java.io.FileNotFoundException;
+
+public class DiakokController{
     @FXML
     private Students students;
 
-    @Override
-    public
+    public void initialize() throws FileNotFoundException {
+        students.loadFromFile("assets/diakok.csv");
+    }
+    @FXML
+    public void save(){
+
+    }
 }
