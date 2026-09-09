@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox alignment="CENTER" prefHeight="104.0" prefWidth="88.0" spacing="20.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.feladat.DiakokController">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+   <AnchorPane prefHeight="200.0" prefWidth="200.0">
+      <children>
+         <AnchorPane layoutX="141.0" prefHeight="312.0" prefWidth="369.0">
+            <children>
+               <ListView layoutX="6.0" prefHeight="277.0" prefWidth="363.0" />
+               <Button layoutX="252.0" layoutY="286.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="117.0" text="Lista mentése">
+                  <font>
+                     <Font size="15.0" />
+                  </font>
+               </Button>
+            </children></AnchorPane>
+         <AnchorPane layoutX="2.0" prefHeight="312.0" prefWidth="129.0">
+            <children>
+               <ImageView fitHeight="99.0" fitWidth="94.0" layoutX="17.0" pickOnBounds="true" preserveRatio="true">
+                  <image>
+                     <Image url="@../../../../../../assets/diak.png" />
+                  </image>
+               </ImageView>
+                <Button alignment="TOP_CENTER" layoutX="21.0" layoutY="107.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="86.0" text="Mindenki" onAction="#onClickMindenki"/>
+               <Button layoutX="21.0" layoutY="140.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="86.0" text="Sándrok" />
+               <Button layoutX="21.0" layoutY="175.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="86.0" text="Kecskeméti" />
+               <Button layoutX="21.0" layoutY="208.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="86.0" text="1996" />
+               <Button layoutX="21.0" layoutY="242.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="86.0" text="10/A" />
+            </children>
+         </AnchorPane>
+      </children>
+   </AnchorPane>
+</VBox>
